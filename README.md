@@ -1,6 +1,6 @@
 # Shoot
 
-Inspirado en juego [Neutrino], desarrollado por [Wil Alvarez], este juego tiene como objetivo enseñar [Canvas] , 
+Inspirado en el juego [Neutrino], desarrollado por [Wil Alvarez], este juego tiene como objetivo enseñar [Canvas] , 
 API proporcionada por la actual versión de HTML5, por ser nativa es posible su funcionamiento en cualquier navegador, 
 tanto móvil como de escritorio.
 
@@ -28,16 +28,14 @@ Para dispositivos móviles es posible escanear el siguiente código QR.
 
 ![QR](https://dl.dropboxusercontent.com/u/181689/imgshoot/qr.png)
 
-En dispositivos móviles basados en Android con navegador Google Chrome, es posible agregar la aplicación a la [pantalla principal], 
-esn este caso se hará uso de [manifest.json] para controlar la orientación del dispositivo.
+En dispositivos móviles basados en Android con navegador Google Chrome, es posible agregar la aplicación a la [pantalla principal], esn este caso se hará uso de [manifest.json] para controlar la orientación del dispositivo.
 
 ### Funcionalidades.
 
 El objetivo del juego es destruir un elemento que está rodeado por una serie de obstáculos que giran alrededor de él, 
 una descripción del juego escrita por el desarrollador del mismo puede ser vista en la [página] del juego.
 
-Los obstáculos son ubicados de forma aleatoria en diferentes órbitas del objeto principal, 
-la diferencia entre cada órbita es de 45º 
+Los obstáculos son ubicados de forma aleatoria en diferentes órbitas del objeto principal, la diferencia entre cada órbita es de 45º 
 
 ![DOTS](https://dl.dropboxusercontent.com/u/181689/imgshoot/circle.gif)
 
@@ -78,8 +76,7 @@ npm run start
 
 ### Service Worker
 
-Otras de las características asociadas al juego, ha sido la posibilidad de ser jugado offline, para lo cual se ha hecho uso de 
-[Service Worker], se ha tomado como ejemplo la aplicación [airhorn].
+Otras de las características asociadas al juego, ha sido la posibilidad de ser jugado offline, para lo cual se ha hecho uso de [Service Worker], se ha tomado como ejemplo la aplicación [airhorn].
 
 
 ### Otras fuentes.
